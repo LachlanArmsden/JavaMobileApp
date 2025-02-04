@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp">
+
+    <TextView
+            android:id="@+id/vBrowse_name_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:text="Activity Name"/>
+    <TextView
+            android:id="@+id/vBrowse_type_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/vBrowse_name_textview"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:text="Activity Type"/>
+    <TextView
+            android:text="0 / 0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/vBrowse_capacity_textview"
+            android:textSize="20sp" android:layout_alignParentEnd="true" android:layout_marginEnd="32dp"
+            android:layout_marginTop="14dp" android:layout_alignParentTop="true"/>
+
+</RelativeLayout>
